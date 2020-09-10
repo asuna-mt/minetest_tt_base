@@ -17,3 +17,9 @@ This mod introduces support for new item definition fields:
 
 Because there is no standard way in Minetest (yet) to mark an item as food, these fields
 are required for food items to be recognized as such.
+
+## Version
+1.0.0
+
+## License
+MIT License.
