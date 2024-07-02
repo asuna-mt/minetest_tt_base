@@ -1,4 +1,4 @@
-# textdomain:tt_base
+# textdomain: tt_base
 Damage: @1=Урон: @1
 Damage (@1): @2=Урон (@1): @2
 Healing: @1=Исцеление: @1

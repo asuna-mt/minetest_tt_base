@@ -1,4 +1,4 @@
-# textdomain:tt_base
+# textdomain: tt_base
 Damage: @1=Dégâts: @1
 Damage (@1): @2=Dégâts (@1): @2
 Healing: @1=Guérison: @1
