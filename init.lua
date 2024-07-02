@@ -168,7 +168,7 @@ tt.register_snippet(function(itemstring)
 		desc = newline(desc)
 		desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("Slippery"))
 	end
-	local tmp = minetest.get_item_group(itemstring, "bouncy")
+	tmp = minetest.get_item_group(itemstring, "bouncy")
 	if tmp >= 1 then
 		desc = newline(desc)
 		desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("Bouncy (@1%)", tmp))

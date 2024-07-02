@@ -1,12 +1,10 @@
-# textdomain:tt
+# textdomain:tt_base
 Damage: @1=
 Damage (@1): @2=
 Healing: @1=
 Healing (@1): @2=
 Full punch interval: @1s=
 Food item=
-+@1 satiation=
-@1 satiation=
 +@1 food points=
 Contact damage: @1 per second=
 Contact healing: @1 per second=
