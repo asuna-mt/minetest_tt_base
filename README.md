@@ -21,5 +21,7 @@ are required for food items to be recognized as such.
 ## Version
 1.0.0
 
+This mod requires Luanti 5.10.0 or later.
+
 ## License
 MIT License.
