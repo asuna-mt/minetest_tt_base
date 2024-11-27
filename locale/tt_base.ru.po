@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luanti textdomain tt_base x.x.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: ltt_convert 0.2.0\n"
+
+msgid "Damage: @1"
+msgstr "Урон: @1"
+
+msgid "Damage (@1): @2"
+msgstr "Урон (@1): @2"
+
+msgid "Healing: @1"
+msgstr "Исцеление: @1"
+
+msgid "Healing (@1): @2"
+msgstr "Исцеление (@1): @2"
+
+msgid "Full punch interval: @1s"
+msgstr "Интервал полного удара: @1 с"
+
+msgid "Food item"
+msgstr "Еда"
+
+#, fuzzy
+msgid "+@1 food point"
+msgid_plural "+@1 food points"
+msgstr[0] "+@1 к сытости"
+msgstr[1] "+@1 к сытости"
+msgstr[2] "+@1 к сытости"
+
+msgid "Contact damage: @1 per second"
+msgstr "Урон при контакте: @1 в секунду"
+
+msgid "Contact healing: @1 per second"
+msgstr "Исцеление при контакте: @1 в секунду"
+
+msgid "Drowning damage: @1"
+msgstr "Урон при падении: @1"
+
+msgid "Bouncy (@1%)"
+msgstr "Упругость (@1%)"
+
+msgid "Luminance: @1"
+msgstr "Свечение: @1"
+
+msgid "Slippery"
+msgstr "Скользкость"
+
+msgid "Climbable"
+msgstr "Можно карабкаться"
+
+msgid "Climbable (only downwards)"
+msgstr "Можно спускаться"
+
+msgid "No jumping"
+msgstr "Нельзя прыгать"
+
+msgid "No swimming upwards"
+msgstr "Нельзя плыть вверх"
+
+msgid "No rising"
+msgstr "Нельзя подниматься"
+
+msgid "Fall damage: @1%"
+msgstr "Урон при падении: @1%"
+
+msgid "Fall damage: +@1%"
+msgstr "Урон при падении: +@1%"
+
+msgid "No fall damage"
+msgstr "Нет урона при падении"
+
+msgid "Digs @1 blocks"
+msgstr "Добывает @1 блоки"
+
+msgid "Digs @1 blocks instantly"
+msgstr "Добывает @1 блоки мгновенно"
+
+msgid "Minimum dig time: @1s"
+msgstr "Минимальный интервал добычи: @1с"
+
