@@ -1,3 +1,4 @@
+# Extended Tooltips: Base
 This mod is for the Extended Tooltips [tt] mod to extend item tooltips with the following
 basic info:
 
