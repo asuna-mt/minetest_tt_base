@@ -11,7 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: ltt_convert 0.2.0\n"
+
+msgid "Extended Tooltips: Base"
+msgstr "Erweiterte Tooltips: Basis"
+
+msgid "Adds generic tooltip extensions to items"
+msgstr "Fügt generische Tooltip-Erweiterungen zu Gegenständen hinzu"
 
 msgid "Damage: @1"
 msgstr "Schaden: @1"
