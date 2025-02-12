@@ -12,6 +12,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+msgid "Extended Tooltips: Base"
+msgstr "Erweiterte Tooltips: Basis"
+
+msgid "Adds generic tooltip extensions to items"
+msgstr "Fügt generische Tooltip-Erweiterungen zu Gegenständen hinzu"
+
 #: tt_base/init.lua:54
 msgid "Digs @1 blocks"
 msgstr "Gräbt „@1“-Blöcke"
@@ -55,9 +61,8 @@ msgstr[0] "+@1 Nahrungspunkt"
 msgstr[1] "+@1 Nahrungspunkte"
 
 #: tt_base/init.lua:118
-#, fuzzy
 msgid "+@1 food points"
-msgstr "+@1 Nahrungspunkt"
+msgstr "+@1 Nahrungspunkte"
 
 #: tt_base/init.lua:138
 msgid "Contact damage: @1 per second"
@@ -88,23 +93,20 @@ msgid "No jumping"
 msgstr "Kein Springen"
 
 #: tt_base/init.lua:173
-#, fuzzy
 msgid "No swimming upwards or downwards"
-msgstr "Kein nach oben schwimmen"
+msgstr "Kein nach oben oder unten schwimmen"
 
 #: tt_base/init.lua:176
 msgid "No swimming upwards"
 msgstr "Kein nach oben schwimmen"
 
 #: tt_base/init.lua:179
-#, fuzzy
 msgid "No swimming downwards"
-msgstr "Kein nach oben schwimmen"
+msgstr "Kein nach unten schwimmen"
 
 #: tt_base/init.lua:184
-#, fuzzy
 msgid "No rising or sinking"
-msgstr "Kein Aufsteigen"
+msgstr "Kein Aufsteigen oder Sinken"
 
 #: tt_base/init.lua:187
 msgid "No rising"
@@ -112,21 +114,19 @@ msgstr "Kein Aufsteigen"
 
 #: tt_base/init.lua:190
 msgid "No sinking"
-msgstr ""
+msgstr "Kein Sinken"
 
 #: tt_base/init.lua:198
-#, fuzzy
 msgid "Climbable (only horizontally)"
-msgstr "Erkletterbar (nur nach unten)"
+msgstr "Erkletterbar (nur horizontal)"
 
 #: tt_base/init.lua:201
 msgid "Climbable (only downwards)"
 msgstr "Erkletterbar (nur nach unten)"
 
 #: tt_base/init.lua:204
-#, fuzzy
 msgid "Climbable (only upwards)"
-msgstr "Erkletterbar (nur nach unten)"
+msgstr "Erkletterbar (nur nach oben)"
 
 #: tt_base/init.lua:207
 msgid "Climbable"
@@ -143,9 +143,3 @@ msgstr "Sprunghaft (@1%)"
 #: tt_base/init.lua:227
 msgid "Luminance: @1"
 msgstr "Lichtstärke: @1"
-
-#~ msgid "Extended Tooltips: Base"
-#~ msgstr "Erweiterte Tooltips: Basis"
-
-#~ msgid "Adds generic tooltip extensions to items"
-#~ msgstr "Fügt generische Tooltip-Erweiterungen zu Gegenständen hinzu"
