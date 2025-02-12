@@ -20,7 +20,7 @@ msgstr "Baut leicht brechbare Blöcke ab"
 #. ~ Description for tool with digging group 'cracky'
 #: groups.lua:21
 msgid "Breaks tough, crackable blocks like stone"
-msgstr "Baut harte zerbrechliche Blöcke wie Stein ab"
+msgstr "Baut harte brechbare Blöcke wie Stein ab"
 
 #. ~ Description for tool with digging group 'crumbly'
 #: groups.lua:25
@@ -35,7 +35,7 @@ msgstr "Schneidet feinmaschige Blöcke wie Blätter oder Pflanzen ab"
 #. ~ Description for tool with digging group 'choppy'
 #: groups.lua:33
 msgid "Chops woodlike blocks"
-msgstr "Fällt holzähnliche Blöcke"
+msgstr "Baut holzähnliche Blöcke ab"
 
 #. ~ Description for tool with digging group 'oddly_breakable_by_hand'
 #: groups.lua:37
