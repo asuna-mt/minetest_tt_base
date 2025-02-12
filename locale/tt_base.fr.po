@@ -20,15 +20,15 @@ msgstr ""
 
 #: tt_base/init.lua:54
 msgid "Digs @1 blocks"
-msgstr "Digs @1 blocks"
+msgstr ""
 
 #: tt_base/init.lua:55
 msgid "Minimum dig time: @1s"
-msgstr "Minimum dig time: @1s"
+msgstr ""
 
 #: tt_base/init.lua:59
 msgid "Digs @1 blocks instantly"
-msgstr "Digs @1 blocks instantly"
+msgstr ""
 
 #: tt_base/init.lua:75
 msgid "Damage: @1"
