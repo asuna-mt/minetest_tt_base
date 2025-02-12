@@ -66,7 +66,7 @@ tt.register_snippet(function(itemstring)
 							--~ @1 = technical group name
 							d = S("Digs @1 blocks", group) .. "\n"
 						end
-						d = d .. S("Minimum dig time: @1s", string.format("%.2f", mintime))
+						d = d .. S("• Minimum dig time: @1s", string.format("%.2f", mintime))
 						digs = newline(digs)
 						digs = digs .. d
 					elseif mintime and mintime == 0 then
@@ -117,7 +117,7 @@ tt.register_snippet(function(itemstring)
 				full_punch_interval = 1
 			end
 			desc = newline(desc)
-			desc = desc .. S("Full punch interval: @1s", string.format("%.2f", full_punch_interval))
+			desc = desc .. S("• Full punch interval: @1s", string.format("%.2f", full_punch_interval))
 		end
 	end
 	if desc == "" then

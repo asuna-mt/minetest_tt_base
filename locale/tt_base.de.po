@@ -23,8 +23,8 @@ msgid "Digs @1 blocks"
 msgstr "Gräbt „@1“-Blöcke"
 
 #: tt_base/init.lua:55
-msgid "Minimum dig time: @1s"
-msgstr "Minimale Grabezeit: @1s"
+msgid "• Minimum dig time: @1s"
+msgstr "• Minimale Grabezeit: @1s"
 
 #: tt_base/init.lua:59
 msgid "Digs @1 blocks instantly"
@@ -47,8 +47,8 @@ msgid "Healing (@1): @2"
 msgstr "Heilung (@1): @2"
 
 #: tt_base/init.lua:94
-msgid "Full punch interval: @1s"
-msgstr "Zeit zum Ausholen: @1s"
+msgid "• Full punch interval: @1s"
+msgstr "• Zeit zum Ausholen: @1s"
 
 #: tt_base/init.lua:111
 msgid "Food item"

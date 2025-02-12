@@ -24,8 +24,8 @@ msgid "Digs @1 blocks"
 msgstr "Добывает @1 блоки"
 
 #: tt_base/init.lua:55
-msgid "Minimum dig time: @1s"
-msgstr "Минимальный интервал добычи: @1с"
+msgid "• Minimum dig time: @1s"
+msgstr "• Минимальный интервал добычи: @1с"
 
 #: tt_base/init.lua:59
 msgid "Digs @1 blocks instantly"
@@ -48,8 +48,8 @@ msgid "Healing (@1): @2"
 msgstr "Исцеление (@1): @2"
 
 #: tt_base/init.lua:94
-msgid "Full punch interval: @1s"
-msgstr "Интервал полного удара: @1 с"
+msgid "• Full punch interval: @1s"
+msgstr "• Интервал полного удара: @1 с"
 
 #: tt_base/init.lua:111
 msgid "Food item"
