@@ -37,6 +37,9 @@ end
 -- Tool information (digging times, weapon stats)
 tt.register_snippet(function(itemstring)
 	local def = minetest.registered_items[itemstring]
+	if def._tt_base_ignore == true then
+		return ""
+	end
 	local desc = ""
 	if def.tool_capabilities then
 		-- Digging times
@@ -100,6 +103,9 @@ end)
 -- Food
 tt.register_snippet(function(itemstring)
 	local def = minetest.registered_items[itemstring]
+	if def._tt_base_ignore == true then
+		return ""
+	end
 	local desc
 	if def._tt_food then
 		desc = S("Food item")
@@ -120,6 +126,9 @@ end)
 -- Node info
 tt.register_snippet(function(itemstring)
 	local def = minetest.registered_items[itemstring]
+	if def._tt_base_ignore == true then
+		return ""
+	end
 	local desc = ""
 
 	-- Health-related node facts
