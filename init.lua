@@ -74,7 +74,7 @@ tt.register_snippet(function(itemstring)
 					elseif mintime and mintime == 0 then
 						if tt_base.registered_groups[group] and tt_base.registered_groups[group].dig_long then
 							--~ Description for when a tool can something instantly. @1 is the general dig description
-							d = S("@1 (instantly)", tt_base.registered_groups[group].dig_long) .. "\n"
+							d = S("@1 (instantly)", tt_base.registered_groups[group].dig_long)
 						else
 							--~ @1 = technical group name
 							d = S("Digs @1 blocks (instantly)", group)
