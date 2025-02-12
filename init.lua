@@ -182,7 +182,7 @@ tt.register_snippet(function(itemstring)
 		desc = desc .. minetest.colorize(tt.COLOR_GOOD, S("No fall damage"))
 	elseif tmp < 0 then
 		desc = newline(desc)
-		desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("Fall damage: @1%", tmp))
+		desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("Fall damage: @1%", tt_base.localize_number(tmp)))
 	end
 
 	-- Movement-related node facts
