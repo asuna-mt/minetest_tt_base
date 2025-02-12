@@ -12,6 +12,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 
+msgid "Extended Tooltips: Base"
+msgstr ""
+
+msgid "Adds generic tooltip extensions to items"
+msgstr ""
+
 #: tt_base/init.lua:54
 msgid "Digs @1 blocks"
 msgstr "Digs @1 blocks"
