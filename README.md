@@ -11,15 +11,20 @@ basic info:
 
 This mod assumes that the default gameplay behavior of Luanti is used.
 
-This mod introduces support for new item definition fields:
+## Notes for programmers
 
-* `_tt_food`: If `true`, item is a food item that can be consumed by the player
-* `_tt_food_hp`: Health increase (in HP) for player when consuming food item
-* `_tt_base_ignore`: If set to true, it suppresses all snippets (tooltip extensions)
-   from this mod for the item (snippets added by other mods are unaffected)
+This mod offers a few customizations for programmers, see `API.md`.
 
-Because there is no standard way in Luanti to mark an item as food, these fields
-are required for food items to be recognized as such.
+Game authors: It is highly recommended to review the tooltips of **ALL**
+your items when you use this mod and make custom adjustments (see `API.md`)
+where necessary. **DO NOT** just blindly drop this mod into your game
+and call it a day. This mod cannot automatically detect everything, a
+manual review is necessary to ensure high tooltip quality.
+
+Note that using `tt_base` for your game is NOT neccessary for `tt` to
+work, it just provides some common use cases. If `tt_base` is too
+restrictive, consider *not* using it and just add the tooltip
+snippets manually using the `tt` mod.
 
 ## Version
 1.0.0

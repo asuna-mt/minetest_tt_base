@@ -1,4 +1,7 @@
+tt_base = {}
+
 local S, PS = minetest.get_translator("tt_base")
+tt_base.registered_groups = {}
 
 local function get_min_digtime(caps)
 	local mintime
@@ -34,6 +37,12 @@ local function newline(str)
 	return str
 end
 
+function tt_base.register_group(groupname, descriptions)
+	tt_base.registered_groups[groupname] = table.copy(descriptions)
+end
+
+dofile(minetest.get_modpath("tt_base").."/groups.lua")
+
 -- Tool information (digging times, weapon stats)
 tt.register_snippet(function(itemstring)
 	local def = minetest.registered_items[itemstring]
@@ -51,12 +60,23 @@ tt.register_snippet(function(itemstring)
 				if caps.times then
 					mintime, unique_mintime = get_min_digtime(caps)
 					if mintime and (mintime > 0 or (not unique_mintime)) then
-						d = S("Digs @1 blocks", group) .. "\n"
+						if tt_base.registered_groups[group] and tt_base.registered_groups[group].dig_long then
+							d = tt_base.registered_groups[group].dig_long .. "\n"
+						else
+							--~ @1 = technical group name
+							d = S("Digs @1 blocks", group) .. "\n"
+						end
 						d = d .. S("Minimum dig time: @1s", string.format("%.2f", mintime))
 						digs = newline(digs)
 						digs = digs .. d
 					elseif mintime and mintime == 0 then
-						d = S("Digs @1 blocks instantly", group)
+						if tt_base.registered_groups[group] and tt_base.registered_groups[group].dig_long then
+							--~ Description for when a tool can something instantly. @1 is the general dig description
+							d = S("@1 (instantly)", tt_base.registered_groups[group].dig_long) .. "\n"
+						else
+							--~ @1 = technical group name
+							d = S("Digs @1 blocks (instantly)", group)
+						end
 						digs = newline(digs)
 						digs = digs .. d
 					end
@@ -77,10 +97,16 @@ tt.register_snippet(function(itemstring)
 						msg = S("Healing: @1", math.abs(damage))
 					end
 				else
-					if damage >= 0 then
-						msg = S("Damage (@1): @2", group, damage)
+					local gname
+					if tt_base.registered_groups[group] and tt_base.registered_groups[group].damage then
+						gname = tt_base.registered_groups[group].damage
 					else
-						msg = S("Healing (@1): @2", group, math.abs(damage))
+						gname = group
+					end
+					if damage >= 0 then
+						msg = S("Damage (@1): @2", gname, damage)
+					else
+						msg = S("Healing (@1): @2", gname, math.abs(damage))
 					end
 				end
 				desc = newline(desc)
