@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Luanti textdomain tt_base x.x.x\n"
 "Report-Msgid-Bugs-To: Wuzzy@disroot.org\n"
-"POT-Creation-Date: 2025-02-12 03:37+0100\n"
+"POT-Creation-Date: 2025-02-12 14:20+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -13,49 +13,87 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "Extended Tooltips: Base"
+#. ~ Description for tool with digging group 'dig_immediate'
+#: groups.lua:14
+msgid "Breaks easy-to-break blocks"
 msgstr ""
 
-msgid "Adds generic tooltip extensions to items"
+#. ~ Description for tool with digging group 'cracky'
+#: groups.lua:21
+msgid "Breaks tough, crackable blocks like stone"
 msgstr ""
 
-#: tt_base/init.lua:54
+#. ~ Description for tool with digging group 'crumbly'
+#: groups.lua:25
+msgid "Digs dirt- and sandlike blocks"
+msgstr ""
+
+#. ~ Description for tool with digging group 'snappy'
+#: groups.lua:29
+msgid "Cuts blocks with fine filaments like leaves or plants"
+msgstr ""
+
+#. ~ Description for tool with digging group 'choppy'
+#: groups.lua:33
+msgid "Chops woodlike blocks"
+msgstr ""
+
+#. ~ Description for tool with digging group 'oddly_breakable_by_hand'
+#: groups.lua:37
+msgid "Breaks hand-breakable blocks"
+msgstr ""
+
+#. ~ Description for tool with digging group 'catchable' (used by Minetest Game)
+#: groups.lua:43
+msgid "Catches insects"
+msgstr ""
+
+#. ~ @1 = technical group name
+#: init.lua:69
 msgid "Digs @1 blocks"
 msgstr "Добывает @1 блоки"
 
-#: tt_base/init.lua:55
+#: init.lua:71
 msgid "• Minimum dig time: @1s"
 msgstr "• Минимальный интервал добычи: @1с"
 
-#: tt_base/init.lua:59
-msgid "Digs @1 blocks instantly"
+#. ~ Description for when a tool can something instantly. @1 is the general dig description
+#: init.lua:77
+#, fuzzy
+msgid "@1 (instantly)"
 msgstr "Добывает @1 блоки мгновенно"
 
-#: tt_base/init.lua:75
+#. ~ @1 = technical group name
+#: init.lua:80
+#, fuzzy
+msgid "Digs @1 blocks (instantly)"
+msgstr "Добывает @1 блоки мгновенно"
+
+#: init.lua:97
 msgid "Damage: @1"
 msgstr "Урон: @1"
 
-#: tt_base/init.lua:77
+#: init.lua:99
 msgid "Healing: @1"
 msgstr "Исцеление: @1"
 
-#: tt_base/init.lua:81
+#: init.lua:109
 msgid "Damage (@1): @2"
 msgstr "Урон (@1): @2"
 
-#: tt_base/init.lua:83
+#: init.lua:111
 msgid "Healing (@1): @2"
 msgstr "Исцеление (@1): @2"
 
-#: tt_base/init.lua:94
+#: init.lua:122
 msgid "• Full punch interval: @1s"
 msgstr "• Интервал полного удара: @1 с"
 
-#: tt_base/init.lua:111
+#: init.lua:139
 msgid "Food item"
 msgstr "Еда"
 
-#: tt_base/init.lua:115
+#: init.lua:143
 #, fuzzy
 msgid "+@1 food point"
 msgid_plural "+@1 food points"
@@ -63,92 +101,120 @@ msgstr[0] "+@1 к сытости"
 msgstr[1] "+@1 к сытости"
 msgstr[2] "+@1 к сытости"
 
-#: tt_base/init.lua:118
+#: init.lua:146
 #, fuzzy
 msgid "+@1 food points"
 msgstr "+@1 к сытости"
 
-#: tt_base/init.lua:138
+#: init.lua:166
 msgid "Contact damage: @1 per second"
 msgstr "Урон при контакте: @1 в секунду"
 
-#: tt_base/init.lua:141
+#: init.lua:169
 msgid "Contact healing: @1 per second"
 msgstr "Исцеление при контакте: @1 в секунду"
 
-#: tt_base/init.lua:146
+#: init.lua:174
 msgid "Drowning damage: @1"
 msgstr "Урон при падении: @1"
 
-#: tt_base/init.lua:151
+#: init.lua:179
 msgid "Fall damage: +@1%"
 msgstr "Урон при падении: +@1%"
 
-#: tt_base/init.lua:154
+#: init.lua:182
 msgid "No fall damage"
 msgstr "Нет урона при падении"
 
-#: tt_base/init.lua:157
+#: init.lua:185
 msgid "Fall damage: @1%"
 msgstr "Урон при падении: @1%"
 
-#: tt_base/init.lua:167
+#: init.lua:195
 msgid "No jumping"
 msgstr "Нельзя прыгать"
 
-#: tt_base/init.lua:173
+#: init.lua:201
 #, fuzzy
 msgid "No swimming upwards or downwards"
 msgstr "Нельзя плыть вверх"
 
-#: tt_base/init.lua:176
+#: init.lua:204
 msgid "No swimming upwards"
 msgstr "Нельзя плыть вверх"
 
-#: tt_base/init.lua:179
+#: init.lua:207
 #, fuzzy
 msgid "No swimming downwards"
 msgstr "Нельзя плыть вверх"
 
-#: tt_base/init.lua:184
+#: init.lua:212
 #, fuzzy
 msgid "No rising or sinking"
 msgstr "Нельзя подниматься"
 
-#: tt_base/init.lua:187
+#: init.lua:215
 msgid "No rising"
 msgstr "Нельзя подниматься"
 
-#: tt_base/init.lua:190
+#: init.lua:218
 msgid "No sinking"
 msgstr ""
 
-#: tt_base/init.lua:198
+#: init.lua:226
 #, fuzzy
 msgid "Climbable (only horizontally)"
 msgstr "Можно спускаться"
 
-#: tt_base/init.lua:201
+#: init.lua:229
 msgid "Climbable (only downwards)"
 msgstr "Можно спускаться"
 
-#: tt_base/init.lua:204
+#: init.lua:232
 #, fuzzy
 msgid "Climbable (only upwards)"
 msgstr "Можно спускаться"
 
-#: tt_base/init.lua:207
+#: init.lua:235
 msgid "Climbable"
 msgstr "Можно карабкаться"
 
-#: tt_base/init.lua:212
+#: init.lua:240
 msgid "Slippery"
 msgstr "Скользкость"
 
-#: tt_base/init.lua:220
+#: init.lua:248
 msgid "Bouncy (@1%)"
 msgstr "Упругость (@1%)"
 
-#: tt_base/init.lua:227
+#: init.lua:255
 msgid "Luminance: @1"
 msgstr "Свечение: @1"
+
+#. ~ symbol representing infinity
+#: localize.lua:9
+msgid "∞"
+msgstr ""
+
+#. ~ a negative whole number. @1 will be replaced by digits
+#: localize.lua:25 localize.lua:46
+msgid "−@1"
+msgstr ""
+
+#. ~ a negative number with some decimal places. @1 is the part before the decimal point, @2 is the part after it. Replace the minus sign and decimal point with whatever is appropriate for your language.
+#: localize.lua:39
+msgid "−@1.@2"
+msgstr ""
+
+#. ~ a non-negative number with some decimal places. @1 is the part before the decimal point, @2 is the part after it. Replace the decimal point with whatever is appropriate for your language.
+#: localize.lua:42
+msgid "@1.@2"
+msgstr ""
+
+#: mod.conf:2
+msgid "Extended Tooltips: Base"
+msgstr ""
+
+#: mod.conf:3
+msgid "Adds generic tooltip extensions to items"
+msgstr ""
