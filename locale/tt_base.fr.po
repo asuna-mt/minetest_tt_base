@@ -190,22 +190,22 @@ msgstr "Luminance: @1"
 #. ~ symbol representing infinity
 #: localize.lua:9
 msgid "∞"
-msgstr ""
+msgstr "∞"
 
 #. ~ a negative whole number. @1 will be replaced by digits
 #: localize.lua:25 localize.lua:46
 msgid "−@1"
-msgstr ""
+msgstr "−@1"
 
 #. ~ a negative number with some decimal places. @1 is the part before the decimal point, @2 is the part after it. Replace the minus sign and decimal point with whatever is appropriate for your language.
 #: localize.lua:39
 msgid "−@1.@2"
-msgstr ""
+msgstr "−@1,@2"
 
 #. ~ a non-negative number with some decimal places. @1 is the part before the decimal point, @2 is the part after it. Replace the decimal point with whatever is appropriate for your language.
 #: localize.lua:42
 msgid "@1.@2"
-msgstr ""
+msgstr "@1,@2"
 
 #: mod.conf:2
 msgid "Extended Tooltips: Base"
