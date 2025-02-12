@@ -63,4 +63,4 @@ Registers translatable descriptions for a group.
 	* `damage`: Name of the group when used as a damage group (usually only one word) (not necessary for `fleshy`)
 
 This function **MUST** be called *before* `tt_base` runs. For games, this can be done by adding this function in
-a new special mod (that you create) called “`tt_base_group`”. This works because `tt_base` optionally depends on `tt_base_group`.
+a new special mod (that you create) called “`tt_base_groups`”. This works because `tt_base` optionally depends on `tt_base_groups`.
