@@ -27,7 +27,7 @@ restrictive, consider *not* using it and just add the tooltip
 snippets manually using the `tt` mod.
 
 ## Version
-1.0.0
+1.1.0
 
 This mod requires Luanti 5.10.0 or later.
 
