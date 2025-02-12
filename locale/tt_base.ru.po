@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Luanti textdomain tt_base x.x.x\n"
 "Report-Msgid-Bugs-To: Wuzzy@disroot.org\n"
-"POT-Creation-Date: \n"
+"POT-Creation-Date: 2025-02-12 03:37+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -10,32 +10,46 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-msgid "Extended Tooltips: Base"
-msgstr ""
+#: tt_base/init.lua:54
+msgid "Digs @1 blocks"
+msgstr "Добывает @1 блоки"
 
-msgid "Adds generic tooltip extensions to items"
-msgstr ""
+#: tt_base/init.lua:55
+msgid "Minimum dig time: @1s"
+msgstr "Минимальный интервал добычи: @1с"
 
+#: tt_base/init.lua:59
+msgid "Digs @1 blocks instantly"
+msgstr "Добывает @1 блоки мгновенно"
+
+#: tt_base/init.lua:75
 msgid "Damage: @1"
 msgstr "Урон: @1"
 
-msgid "Damage (@1): @2"
-msgstr "Урон (@1): @2"
-
+#: tt_base/init.lua:77
 msgid "Healing: @1"
 msgstr "Исцеление: @1"
 
+#: tt_base/init.lua:81
+msgid "Damage (@1): @2"
+msgstr "Урон (@1): @2"
+
+#: tt_base/init.lua:83
 msgid "Healing (@1): @2"
 msgstr "Исцеление (@1): @2"
 
+#: tt_base/init.lua:94
 msgid "Full punch interval: @1s"
 msgstr "Интервал полного удара: @1 с"
 
+#: tt_base/init.lua:111
 msgid "Food item"
 msgstr "Еда"
 
+#: tt_base/init.lua:115
 #, fuzzy
 msgid "+@1 food point"
 msgid_plural "+@1 food points"
@@ -43,54 +57,92 @@ msgstr[0] "+@1 к сытости"
 msgstr[1] "+@1 к сытости"
 msgstr[2] "+@1 к сытости"
 
+#: tt_base/init.lua:118
+#, fuzzy
+msgid "+@1 food points"
+msgstr "+@1 к сытости"
+
+#: tt_base/init.lua:138
 msgid "Contact damage: @1 per second"
 msgstr "Урон при контакте: @1 в секунду"
 
+#: tt_base/init.lua:141
 msgid "Contact healing: @1 per second"
 msgstr "Исцеление при контакте: @1 в секунду"
 
+#: tt_base/init.lua:146
 msgid "Drowning damage: @1"
 msgstr "Урон при падении: @1"
 
-msgid "Bouncy (@1%)"
-msgstr "Упругость (@1%)"
-
-msgid "Luminance: @1"
-msgstr "Свечение: @1"
-
-msgid "Slippery"
-msgstr "Скользкость"
-
-msgid "Climbable"
-msgstr "Можно карабкаться"
-
-msgid "Climbable (only downwards)"
-msgstr "Можно спускаться"
-
-msgid "No jumping"
-msgstr "Нельзя прыгать"
-
-msgid "No swimming upwards"
-msgstr "Нельзя плыть вверх"
-
-msgid "No rising"
-msgstr "Нельзя подниматься"
-
-msgid "Fall damage: @1%"
-msgstr "Урон при падении: @1%"
-
+#: tt_base/init.lua:151
 msgid "Fall damage: +@1%"
 msgstr "Урон при падении: +@1%"
 
+#: tt_base/init.lua:154
 msgid "No fall damage"
 msgstr "Нет урона при падении"
 
-msgid "Digs @1 blocks"
-msgstr "Добывает @1 блоки"
+#: tt_base/init.lua:157
+msgid "Fall damage: @1%"
+msgstr "Урон при падении: @1%"
 
-msgid "Digs @1 blocks instantly"
-msgstr "Добывает @1 блоки мгновенно"
+#: tt_base/init.lua:167
+msgid "No jumping"
+msgstr "Нельзя прыгать"
 
-msgid "Minimum dig time: @1s"
-msgstr "Минимальный интервал добычи: @1с"
+#: tt_base/init.lua:173
+#, fuzzy
+msgid "No swimming upwards or downwards"
+msgstr "Нельзя плыть вверх"
 
+#: tt_base/init.lua:176
+msgid "No swimming upwards"
+msgstr "Нельзя плыть вверх"
+
+#: tt_base/init.lua:179
+#, fuzzy
+msgid "No swimming downwards"
+msgstr "Нельзя плыть вверх"
+
+#: tt_base/init.lua:184
+#, fuzzy
+msgid "No rising or sinking"
+msgstr "Нельзя подниматься"
+
+#: tt_base/init.lua:187
+msgid "No rising"
+msgstr "Нельзя подниматься"
+
+#: tt_base/init.lua:190
+msgid "No sinking"
+msgstr ""
+
+#: tt_base/init.lua:198
+#, fuzzy
+msgid "Climbable (only horizontally)"
+msgstr "Можно спускаться"
+
+#: tt_base/init.lua:201
+msgid "Climbable (only downwards)"
+msgstr "Можно спускаться"
+
+#: tt_base/init.lua:204
+#, fuzzy
+msgid "Climbable (only upwards)"
+msgstr "Можно спускаться"
+
+#: tt_base/init.lua:207
+msgid "Climbable"
+msgstr "Можно карабкаться"
+
+#: tt_base/init.lua:212
+msgid "Slippery"
+msgstr "Скользкость"
+
+#: tt_base/init.lua:220
+msgid "Bouncy (@1%)"
+msgstr "Упругость (@1%)"
+
+#: tt_base/init.lua:227
+msgid "Luminance: @1"
+msgstr "Свечение: @1"

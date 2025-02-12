@@ -1,94 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Repixture package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Luanti textdomain tt_base x.x.x\n"
+"Project-Id-Version: Repixture\n"
 "Report-Msgid-Bugs-To: Wuzzy@disroot.org\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"POT-Creation-Date: 2025-02-12 03:37+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgid "Extended Tooltips: Base"
+#: tt_base/init.lua:54
+msgid "Digs @1 blocks"
 msgstr ""
 
-msgid "Adds generic tooltip extensions to items"
+#: tt_base/init.lua:55
+msgid "Minimum dig time: @1s"
 msgstr ""
 
+#: tt_base/init.lua:59
+msgid "Digs @1 blocks instantly"
+msgstr ""
+
+#: tt_base/init.lua:75
 msgid "Damage: @1"
 msgstr ""
 
-msgid "Damage (@1): @2"
-msgstr ""
-
+#: tt_base/init.lua:77
 msgid "Healing: @1"
 msgstr ""
 
+#: tt_base/init.lua:81
+msgid "Damage (@1): @2"
+msgstr ""
+
+#: tt_base/init.lua:83
 msgid "Healing (@1): @2"
 msgstr ""
 
+#: tt_base/init.lua:94
 msgid "Full punch interval: @1s"
 msgstr ""
 
+#: tt_base/init.lua:111
 msgid "Food item"
 msgstr ""
 
+#: tt_base/init.lua:115
 msgid "+@1 food point"
 msgid_plural "+@1 food points"
 msgstr[0] ""
 msgstr[1] ""
 
+#: tt_base/init.lua:118
+msgid "+@1 food points"
+msgstr ""
+
+#: tt_base/init.lua:138
 msgid "Contact damage: @1 per second"
 msgstr ""
 
+#: tt_base/init.lua:141
 msgid "Contact healing: @1 per second"
 msgstr ""
 
+#: tt_base/init.lua:146
 msgid "Drowning damage: @1"
 msgstr ""
 
-msgid "Bouncy (@1%)"
-msgstr ""
-
-msgid "Luminance: @1"
-msgstr ""
-
-msgid "Slippery"
-msgstr ""
-
-msgid "Climbable"
-msgstr ""
-
-msgid "Climbable (only downwards)"
-msgstr ""
-
-msgid "No jumping"
-msgstr ""
-
-msgid "No swimming upwards"
-msgstr ""
-
-msgid "No rising"
-msgstr ""
-
-msgid "Fall damage: @1%"
-msgstr ""
-
+#: tt_base/init.lua:151
 msgid "Fall damage: +@1%"
 msgstr ""
 
+#: tt_base/init.lua:154
 msgid "No fall damage"
 msgstr ""
 
-msgid "Digs @1 blocks"
+#: tt_base/init.lua:157
+msgid "Fall damage: @1%"
 msgstr ""
 
-msgid "Digs @1 blocks instantly"
+#: tt_base/init.lua:167
+msgid "No jumping"
 msgstr ""
 
-msgid "Minimum dig time: @1s"
+#: tt_base/init.lua:173
+msgid "No swimming upwards or downwards"
 msgstr ""
 
+#: tt_base/init.lua:176
+msgid "No swimming upwards"
+msgstr ""
+
+#: tt_base/init.lua:179
+msgid "No swimming downwards"
+msgstr ""
+
+#: tt_base/init.lua:184
+msgid "No rising or sinking"
+msgstr ""
+
+#: tt_base/init.lua:187
+msgid "No rising"
+msgstr ""
+
+#: tt_base/init.lua:190
+msgid "No sinking"
+msgstr ""
+
+#: tt_base/init.lua:198
+msgid "Climbable (only horizontally)"
+msgstr ""
+
+#: tt_base/init.lua:201
+msgid "Climbable (only downwards)"
+msgstr ""
+
+#: tt_base/init.lua:204
+msgid "Climbable (only upwards)"
+msgstr ""
+
+#: tt_base/init.lua:207
+msgid "Climbable"
+msgstr ""
+
+#: tt_base/init.lua:212
+msgid "Slippery"
+msgstr ""
+
+#: tt_base/init.lua:220
+msgid "Bouncy (@1%)"
+msgstr ""
+
+#: tt_base/init.lua:227
+msgid "Luminance: @1"
+msgstr ""

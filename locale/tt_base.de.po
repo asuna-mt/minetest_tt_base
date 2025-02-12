@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Luanti textdomain tt_base x.x.x\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: \n"
+"Report-Msgid-Bugs-To: Wuzzy@disroot.org\n"
+"POT-Creation-Date: 2025-02-12 03:37+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -12,83 +12,140 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-msgid "Extended Tooltips: Base"
-msgstr "Erweiterte Tooltips: Basis"
+#: tt_base/init.lua:54
+msgid "Digs @1 blocks"
+msgstr "Gräbt „@1“-Blöcke"
 
-msgid "Adds generic tooltip extensions to items"
-msgstr "Fügt generische Tooltip-Erweiterungen zu Gegenständen hinzu"
+#: tt_base/init.lua:55
+msgid "Minimum dig time: @1s"
+msgstr "Minimale Grabezeit: @1s"
 
+#: tt_base/init.lua:59
+msgid "Digs @1 blocks instantly"
+msgstr "Gräbt „@1“-Blöcke sofort"
+
+#: tt_base/init.lua:75
 msgid "Damage: @1"
 msgstr "Schaden: @1"
 
-msgid "Damage (@1): @2"
-msgstr "Schaden (@1): @2"
-
+#: tt_base/init.lua:77
 msgid "Healing: @1"
 msgstr "Heilung: @1"
 
+#: tt_base/init.lua:81
+msgid "Damage (@1): @2"
+msgstr "Schaden (@1): @2"
+
+#: tt_base/init.lua:83
 msgid "Healing (@1): @2"
 msgstr "Heilung (@1): @2"
 
+#: tt_base/init.lua:94
 msgid "Full punch interval: @1s"
 msgstr "Zeit zum Ausholen: @1s"
 
+#: tt_base/init.lua:111
 msgid "Food item"
 msgstr "Lebensmittel"
 
+#: tt_base/init.lua:115
 msgid "+@1 food point"
 msgid_plural "+@1 food points"
 msgstr[0] "+@1 Nahrungspunkt"
 msgstr[1] "+@1 Nahrungspunkte"
 
+#: tt_base/init.lua:118
+#, fuzzy
+msgid "+@1 food points"
+msgstr "+@1 Nahrungspunkt"
+
+#: tt_base/init.lua:138
 msgid "Contact damage: @1 per second"
 msgstr "Kontaktschaden: @1 pro Sekunde"
 
+#: tt_base/init.lua:141
 msgid "Contact healing: @1 per second"
 msgstr "Kontaktheilung: @1 pro Sekunde"
 
+#: tt_base/init.lua:146
 msgid "Drowning damage: @1"
 msgstr "Ertrinkensschaden: @1"
 
-msgid "Bouncy (@1%)"
-msgstr "Sprunghaft (@1%)"
-
-msgid "Luminance: @1"
-msgstr "Lichtstärke: @1"
-
-msgid "Slippery"
-msgstr "Rutschig"
-
-msgid "Climbable"
-msgstr "Erkletterbar"
-
-msgid "Climbable (only downwards)"
-msgstr "Erkletterbar (nur nach unten)"
-
-msgid "No jumping"
-msgstr "Kein Springen"
-
-msgid "No swimming upwards"
-msgstr "Kein nach oben schwimmen"
-
-msgid "No rising"
-msgstr "Kein Aufsteigen"
-
-msgid "Fall damage: @1%"
-msgstr "Fallschaden: @1%"
-
+#: tt_base/init.lua:151
 msgid "Fall damage: +@1%"
 msgstr "Fallschaden: +@1%"
 
+#: tt_base/init.lua:154
 msgid "No fall damage"
 msgstr "Kein Fallschaden"
 
-msgid "Digs @1 blocks"
-msgstr "Gräbt „@1“-Blöcke"
+#: tt_base/init.lua:157
+msgid "Fall damage: @1%"
+msgstr "Fallschaden: @1%"
 
-msgid "Digs @1 blocks instantly"
-msgstr "Gräbt „@1“-Blöcke sofort"
+#: tt_base/init.lua:167
+msgid "No jumping"
+msgstr "Kein Springen"
 
-msgid "Minimum dig time: @1s"
-msgstr "Minimale Grabezeit: @1s"
+#: tt_base/init.lua:173
+#, fuzzy
+msgid "No swimming upwards or downwards"
+msgstr "Kein nach oben schwimmen"
 
+#: tt_base/init.lua:176
+msgid "No swimming upwards"
+msgstr "Kein nach oben schwimmen"
+
+#: tt_base/init.lua:179
+#, fuzzy
+msgid "No swimming downwards"
+msgstr "Kein nach oben schwimmen"
+
+#: tt_base/init.lua:184
+#, fuzzy
+msgid "No rising or sinking"
+msgstr "Kein Aufsteigen"
+
+#: tt_base/init.lua:187
+msgid "No rising"
+msgstr "Kein Aufsteigen"
+
+#: tt_base/init.lua:190
+msgid "No sinking"
+msgstr ""
+
+#: tt_base/init.lua:198
+#, fuzzy
+msgid "Climbable (only horizontally)"
+msgstr "Erkletterbar (nur nach unten)"
+
+#: tt_base/init.lua:201
+msgid "Climbable (only downwards)"
+msgstr "Erkletterbar (nur nach unten)"
+
+#: tt_base/init.lua:204
+#, fuzzy
+msgid "Climbable (only upwards)"
+msgstr "Erkletterbar (nur nach unten)"
+
+#: tt_base/init.lua:207
+msgid "Climbable"
+msgstr "Erkletterbar"
+
+#: tt_base/init.lua:212
+msgid "Slippery"
+msgstr "Rutschig"
+
+#: tt_base/init.lua:220
+msgid "Bouncy (@1%)"
+msgstr "Sprunghaft (@1%)"
+
+#: tt_base/init.lua:227
+msgid "Luminance: @1"
+msgstr "Lichtstärke: @1"
+
+#~ msgid "Extended Tooltips: Base"
+#~ msgstr "Erweiterte Tooltips: Basis"
+
+#~ msgid "Adds generic tooltip extensions to items"
+#~ msgstr "Fügt generische Tooltip-Erweiterungen zu Gegenständen hinzu"

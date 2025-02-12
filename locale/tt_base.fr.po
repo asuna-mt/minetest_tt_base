@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Luanti textdomain tt_base x.x.x\n"
 "Report-Msgid-Bugs-To: Wuzzy@disroot.org\n"
-"POT-Creation-Date: \n"
+"POT-Creation-Date: 2025-02-12 03:37+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -12,84 +12,135 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 
-msgid "Extended Tooltips: Base"
-msgstr ""
+#: tt_base/init.lua:54
+msgid "Digs @1 blocks"
+msgstr "Digs @1 blocks"
 
-msgid "Adds generic tooltip extensions to items"
-msgstr ""
+#: tt_base/init.lua:55
+msgid "Minimum dig time: @1s"
+msgstr "Minimum dig time: @1s"
 
+#: tt_base/init.lua:59
+msgid "Digs @1 blocks instantly"
+msgstr "Digs @1 blocks instantly"
+
+#: tt_base/init.lua:75
 msgid "Damage: @1"
 msgstr "Dégâts: @1"
 
-msgid "Damage (@1): @2"
-msgstr "Dégâts (@1): @2"
-
+#: tt_base/init.lua:77
 msgid "Healing: @1"
 msgstr "Guérison: @1"
 
+#: tt_base/init.lua:81
+msgid "Damage (@1): @2"
+msgstr "Dégâts (@1): @2"
+
+#: tt_base/init.lua:83
 msgid "Healing (@1): @2"
 msgstr "Guérison (@1): @2"
 
+#: tt_base/init.lua:94
 msgid "Full punch interval: @1s"
 msgstr "Intervalle de coup: @1s"
 
+#: tt_base/init.lua:111
 msgid "Food item"
 msgstr "alimentaire"
 
+#: tt_base/init.lua:115
 #, fuzzy
 msgid "+@1 food point"
 msgid_plural "+@1 food points"
 msgstr[0] "+@1 de saturation"
 msgstr[1] "+@1 de saturation"
 
+#: tt_base/init.lua:118
+#, fuzzy
+msgid "+@1 food points"
+msgstr "+@1 de saturation"
+
+#: tt_base/init.lua:138
 msgid "Contact damage: @1 per second"
 msgstr "Dégâts de contact: @1 par seconde"
 
+#: tt_base/init.lua:141
 msgid "Contact healing: @1 per second"
 msgstr "Guérison de contact: @1 par seconde"
 
+#: tt_base/init.lua:146
 msgid "Drowning damage: @1"
 msgstr "Dégâts de noyade: @1"
 
-msgid "Bouncy (@1%)"
-msgstr "Rebondissant (@1%)"
-
-msgid "Luminance: @1"
-msgstr "Luminance: @1"
-
-msgid "Slippery"
-msgstr "Glissant"
-
-msgid "Climbable"
-msgstr "Grimpable"
-
-msgid "Climbable (only downwards)"
-msgstr "Grimpable (uniquement vers le bas)"
-
-msgid "No jumping"
-msgstr "Ne pas sauter"
-
-msgid "No swimming upwards"
-msgstr "Ne pas nager vers le haut"
-
-msgid "No rising"
-msgstr "Pas de montée"
-
-msgid "Fall damage: @1%"
-msgstr "Dégâts de chute: @1%"
-
+#: tt_base/init.lua:151
 msgid "Fall damage: +@1%"
 msgstr "Dégâts de chute: +@1%"
 
+#: tt_base/init.lua:154
 msgid "No fall damage"
 msgstr "Pas de dégâts de chute"
 
-msgid "Digs @1 blocks"
-msgstr "Digs @1 blocks"
+#: tt_base/init.lua:157
+msgid "Fall damage: @1%"
+msgstr "Dégâts de chute: @1%"
 
-msgid "Digs @1 blocks instantly"
-msgstr "Digs @1 blocks instantly"
+#: tt_base/init.lua:167
+msgid "No jumping"
+msgstr "Ne pas sauter"
 
-msgid "Minimum dig time: @1s"
-msgstr "Minimum dig time: @1s"
+#: tt_base/init.lua:173
+#, fuzzy
+msgid "No swimming upwards or downwards"
+msgstr "Ne pas nager vers le haut"
 
+#: tt_base/init.lua:176
+msgid "No swimming upwards"
+msgstr "Ne pas nager vers le haut"
+
+#: tt_base/init.lua:179
+#, fuzzy
+msgid "No swimming downwards"
+msgstr "Ne pas nager vers le haut"
+
+#: tt_base/init.lua:184
+#, fuzzy
+msgid "No rising or sinking"
+msgstr "Pas de montée"
+
+#: tt_base/init.lua:187
+msgid "No rising"
+msgstr "Pas de montée"
+
+#: tt_base/init.lua:190
+msgid "No sinking"
+msgstr ""
+
+#: tt_base/init.lua:198
+#, fuzzy
+msgid "Climbable (only horizontally)"
+msgstr "Grimpable (uniquement vers le bas)"
+
+#: tt_base/init.lua:201
+msgid "Climbable (only downwards)"
+msgstr "Grimpable (uniquement vers le bas)"
+
+#: tt_base/init.lua:204
+#, fuzzy
+msgid "Climbable (only upwards)"
+msgstr "Grimpable (uniquement vers le bas)"
+
+#: tt_base/init.lua:207
+msgid "Climbable"
+msgstr "Grimpable"
+
+#: tt_base/init.lua:212
+msgid "Slippery"
+msgstr "Glissant"
+
+#: tt_base/init.lua:220
+msgid "Bouncy (@1%)"
+msgstr "Rebondissant (@1%)"
+
+#: tt_base/init.lua:227
+msgid "Luminance: @1"
+msgstr "Luminance: @1"
