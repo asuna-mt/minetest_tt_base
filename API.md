@@ -15,6 +15,31 @@ Recommendations for game makers:
 * Consider adding additional custom snippets using the `tt` API
   for stuff that `tt_base` didn't cover
 
+## What `tt_base` adds
+
+This is a technical description of what information `tt_base` adds
+to the tooltips specifically:
+
+* Tool digging groups and digging times (`tool_capabilities.groupcaps.times`)
+	* Descriptions for common groups `crumbly`, `cracky`, `snappy`, `choppy`,
+	  `oddly_breakable_by_hand` and `dig_immediate`
+	* Description for `catchable` (from Minetest Game)
+	* Fallback text for other groups (can be extended, see below)
+* Tool/weapon damage (`tool_capabilities.damage_groups`)
+* Full punch interval (`tool_capabilities.full_punch_interval`)
+* Food stats (information must be explicitly provided in item definition, see below)
+* Node information:
+	* Node damage (field `damage_per_second` (negative number = healing))
+	* Drowning damage (field `drowning`)
+	* Climbable (field `climbable`)
+	* Light level (field `light_level`)
+	* Disabled jumping or climbing/swimming up/-downwards (groups `disable_jump`, `disable_descend`)
+	* Fall damage modifier (group `fall_damage_add_percent`)
+	* Slippery (group `slippery`)
+	* Bouncy (group `bouncy`)
+
+Some customization of this is possible, see below.
+
 ## Tooltip configuration
 
 This mod introduces support for new item definition fields:
