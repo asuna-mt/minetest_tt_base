@@ -149,22 +149,50 @@ tt.register_snippet(function(itemstring)
 	end
 
 	-- Movement-related node facts
-	if minetest.get_item_group(itemstring, "disable_jump") == 1 and not def.climbable then
+	local disable_jump = minetest.get_item_group(itemstring, "disable_jump") == 1
+	local disable_descend = minetest.get_item_group(itemstring, "disable_descend") == 1
+	if not def.climbable then
 		if def.liquidtype == "none" then
-			desc = newline(desc)
-			desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No jumping"))
-		elseif minetest.get_item_group(itemstring, "fake_liquid") == 0 then
-			desc = newline(desc)
-			desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No swimming upwards"))
+			if disable_jump then
+				desc = newline(desc)
+				desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No jumping"))
+			end
 		else
-			desc = newline(desc)
-			desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No rising"))
+			if minetest.get_item_group(itemstring, "fake_liquid") == 0 then
+				if disable_jump and disable_descend then
+					desc = newline(desc)
+					desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No swimming upwards or downwards"))
+				elseif disable_jump then
+					desc = newline(desc)
+					desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No swimming upwards"))
+				elseif disable_descend then
+					desc = newline(desc)
+					desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No swimming downwards"))
+				end
+			else
+				if disable_jump and disable_descend then
+					desc = newline(desc)
+					desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No rising or sinking"))
+				elseif disable_jump then
+					desc = newline(desc)
+					desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No rising"))
+				elseif disable_descend then
+					desc = newline(desc)
+					desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("No sinking"))
+				end
+			end
 		end
 	end
 	if def.climbable then
-		if minetest.get_item_group(itemstring, "disable_jump") == 1 then
+		if disable_jump and disable_descend then
+			desc = newline(desc)
+			desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("Climbable (only horizontally)"))
+		elseif disable_jump then
 			desc = newline(desc)
 			desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("Climbable (only downwards)"))
+		elseif disable_descend then
+			desc = newline(desc)
+			desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("Climbable (only upwards)"))
 		else
 			desc = newline(desc)
 			desc = desc .. minetest.colorize(tt.COLOR_DEFAULT, S("Climbable"))

@@ -7,7 +7,7 @@ basic info:
 * Food stats
 * Node damage
 * Node light level
-* Node info: climbable, slippery, bouncy, jumping restriction
+* Node info: climbable, slippery, bouncy, jumping/descending restriction
 
 This mod assumes that the default gameplay behavior of Luanti is used.
 
